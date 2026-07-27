@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMiA IONIC PRO</title>
+  <meta name="description" content="LUMiA IONIC PROは、30秒瞬間加熱・5段階温度調節・マイナスイオンケアで髪へのダメージを抑えながら、サロン帰りのようなツヤ髪へ導くストレートアイロン。おうちで叶う本格ヘアケアを体験。">
+
+  <!-- OGP: 公開後、og:url / og:image は本番ドメインの絶対URLに置き換えてください -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LUMiA IONIC PRO">
+  <meta property="og:description" content="LUMiA IONIC PROは、30秒瞬間加熱・5段階温度調節・マイナスイオンケアで髪へのダメージを抑えながら、サロン帰りのようなツヤ髪へ導くストレートアイロン。おうちで叶う本格ヘアケアを体験。">
+  <meta property="og:image" content="images/common/ogp.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="LUMiA IONIC PRO">
+  <meta property="og:locale" content="ja_JP">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LUMiA IONIC PRO">
+  <meta name="twitter:description" content="LUMiA IONIC PROは、30秒瞬間加熱・5段階温度調節・マイナスイオンケアで髪へのダメージを抑えながら、サロン帰りのようなツヤ髪へ導くストレートアイロン。おうちで叶う本格ヘアケアを体験。">
+  <meta name="twitter:image" content="images/common/ogp.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="images/common/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/_tokens.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header class="header" id="site-header">
+    <div class="header__inner">
+      <a href="#" class="header__logo">
+        <img src="images/common/logo-LUMiA.png" alt="LUMiA" class="header__logo-img">
+      </a>
+
+      <nav class="header__nav" aria-label="グローバルナビゲーション">
+        <ul class="header__nav-list">
+          <li><a href="#features" class="header__nav-link">特徴</a></li>
+          <li><a href="#comparison" class="header__nav-link">使用前後</a></li>
+          <li><a href="#how-to-use" class="header__nav-link">使い方</a></li>
+          <li><a href="#colors" class="header__nav-link">カラー</a></li>
+          <li><a href="#spec" class="header__nav-link">比較</a></li>
+          <li><a href="#user-voice" class="header__nav-link">お客様の声</a></li>
+        </ul>
+        <a href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer" class="cta-button cta-button--compact header__cta">購入する</a>
+      </nav>
+
+      <button
+        type="button"
+        class="header__menu-button"
+        id="menu-open"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="メニューを開く"
+      >
+        <img src="images/sp/hamburger-menu.svg" alt="" class="header__menu-icon">
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <div class="mobile-menu__header">
+      <img src="images/common/logo-LUMiA.png" alt="LUMiA" class="mobile-menu__logo">
+      <button
+        type="button"
+        class="mobile-menu__close"
+        id="menu-close"
+        aria-label="メニューを閉じる"
+      >
+        <img src="images/sp/icon-batu.svg" alt="" class="mobile-menu__close-icon">
+      </button>
+    </div>
+
+    <nav class="mobile-menu__nav" aria-label="モバイルナビゲーション">
+      <ul class="mobile-menu__list">
+        <li>
+          <a href="#features" class="mobile-menu__link">
+            <span>特徴</span>
+            <svg class="mobile-menu__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M9 5l7 7-7 7" stroke="#3A3330" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#comparison" class="mobile-menu__link">
+            <span>使用前後</span>
+            <svg class="mobile-menu__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M9 5l7 7-7 7" stroke="#3A3330" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#how-to-use" class="mobile-menu__link">
+            <span>使い方</span>
+            <svg class="mobile-menu__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M9 5l7 7-7 7" stroke="#3A3330" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#colors" class="mobile-menu__link">
+            <span>カラー</span>
+            <svg class="mobile-menu__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M9 5l7 7-7 7" stroke="#3A3330" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#spec" class="mobile-menu__link">
+            <span>比較</span>
+            <svg class="mobile-menu__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M9 5l7 7-7 7" stroke="#3A3330" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#user-voice" class="mobile-menu__link">
+            <span>お客様の声</span>
+            <svg class="mobile-menu__chevron" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M9 5l7 7-7 7" stroke="#3A3330" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer" class="cta-button mobile-menu__cta">購入する</a>
+  </div>
+
+  <main>
+    <section class="fv" id="fv">
+      <div class="fv__bg">
+        <picture>
+          <source media="(min-width: 768px)" srcset="images/pc/KV背景-pc.png">
+          <img src="images/sp/KV背景-sp.png" alt="" class="fv__bg-img">
+        </picture>
+      </div>
+
+      <div class="fv__inner">
+        <div class="fv__photo">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/pc/KV-pc.png">
+            <img
+              src="images/sp/KV-sp.png"
+              alt="IONIC PROでストレートヘアをスタイリングする女性の写真"
+              class="fv__photo-img"
+            >
+          </picture>
+        </div>
+
+        <div class="fv__content">
+          <p class="fv__eyebrow">IONIC PRO</p>
+
+          <h1 class="fv__headline">
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/pc/キャッチコピー.png">
+              <img src="images/sp/キャッチコピー_sp.png" alt="家で叶える、サロン帰りのツヤ" class="fv__headline-img">
+            </picture>
+          </h1>
+
+          <div class="fv__badges">
+            <picture>
+              <source media="(min-width: 768px)" srcset="images/pc/3つの魅力.png">
+              <img src="images/sp/3つの魅力sp.png" alt="30秒瞬間加熱・5段階温度調節（120〜200℃）・マイナスイオンでうるおいケア" class="fv__badges-img">
+            </picture>
+          </div>
+
+          <a href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer" class="cta-button fv__cta">購入する</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="features__bg">
+        <picture>
+          <source media="(min-width: 768px)" srcset="images/pc/feature-背景.png">
+          <img src="images/sp/Feature-背景sp.png" alt="" class="features__bg-img">
+        </picture>
+      </div>
+      <div class="section-container">
+        <div class="features__text">
+          <div class="section-heading section-heading--on-dark">
+            <p class="section-heading__label">SECTION</p>
+            <h2 class="section-heading__title">FEATURES</h2>
+            <p class="section-heading__sub">テクノロジーと機能</p>
+          </div>
+
+          <div class="features__lead">
+            <p class="features__catch">
+              毎日の熱ダメージを抑えながら、<br>
+              うるおいとツヤのある髪へ。
+            </p>
+            <p class="features__desc">髪をいたわる低温スタイリングと、仕上がりの美しさを両立するためのプロ仕様設計。</p>
+          </div>
+
+          <ul class="features__list">
+            <li class="features__card">
+              <span class="numbered-badge">01</span>
+              <p class="features__card-title">高性能セラミックプレート</p>
+              <p class="features__card-desc">均一な熱分布で、髪全体を美しく滑らかに整えます。</p>
+            </li>
+            <li class="features__card">
+              <span class="numbered-badge">02</span>
+              <p class="features__card-title">サロンスピード瞬間加熱技術</p>
+              <p class="features__card-desc">スイッチを入れたらわずか30秒で設定温度に到達。</p>
+            </li>
+            <li class="features__card">
+              <span class="numbered-badge">03</span>
+              <p class="features__card-title">5段階温度調節（120〜200℃）</p>
+              <p class="features__card-desc">髪質やスタイルに合わせて自由に温度を設定できます。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="comparison" id="comparison">
+      <div class="section-container">
+        <div class="section-heading">
+          <p class="section-heading__label">SECTION</p>
+          <h2 class="section-heading__title">COMPARISON</h2>
+          <p class="section-heading__sub">使用前後の比較</p>
+        </div>
+
+        <p class="comparison__lead">わずか3分のスタイリングで、サロン帰りのような仕上がりに</p>
+
+        <div class="comparison__images">
+          <div class="comparison__image">
+            <img src="images/common/before.png" alt="スタイリング前、まとまりのない髪の後ろ姿" class="comparison__image-img">
+            <p class="comparison__image-label">Before</p>
+          </div>
+          <svg class="comparison__arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M9 5l7 7-7 7" stroke="#3A3330" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <div class="comparison__image">
+            <img src="images/common/after.png" alt="スタイリング後、ツヤのあるストレートヘアの後ろ姿" class="comparison__image-img">
+            <p class="comparison__image-label">After</p>
+          </div>
+        </div>
+
+        <ul class="comparison__merits">
+          <li class="comparison__merit">
+            <span class="merit-badge">Merit 1</span>
+            <p class="comparison__merit-title">少ない回数で思い通りのストレート</p>
+            <p class="comparison__merit-desc">湿度の高い日でもスタイリングをキープ</p>
+          </li>
+          <li class="comparison__merit">
+            <span class="merit-badge">Merit 2</span>
+            <p class="comparison__merit-title">マイナスイオンでケア＆スタイリング</p>
+            <p class="comparison__merit-desc">髪内部の水分量が約121%にUP</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="how-to-use" id="how-to-use">
+      <div class="section-container">
+        <div class="section-heading">
+          <p class="section-heading__label">SECTION</p>
+          <h2 class="section-heading__title">HOW TO USE</h2>
+          <p class="section-heading__sub">使用方法</p>
+        </div>
+
+        <ol class="how-to-use__grid">
+          <li class="how-to-use__card">
+            <img src="images/common/how-to-use01.png" alt="操作パネルで温度設定する手元" class="how-to-use__card-img">
+            <div class="how-to-use__card-body">
+              <p class="how-to-use__step">STEP 01</p>
+              <h3 class="how-to-use__card-title">電源を入れて温度設定</h3>
+              <p class="how-to-use__card-desc">ボタンを押して電源ON。髪質に合わせて温度を選択します。</p>
+            </div>
+          </li>
+          <li class="how-to-use__card">
+            <img src="images/common/how-to-use02.png" alt="髪をアイロンで挟んでスライドする様子" class="how-to-use__card-img">
+            <div class="how-to-use__card-body">
+              <p class="how-to-use__step">STEP 02</p>
+              <h3 class="how-to-use__card-title">髪を挟んでスライド</h3>
+              <p class="how-to-use__card-desc">髪の毛束を取り、根元から毛先に向かってゆっくりスライド。</p>
+            </div>
+          </li>
+          <li class="how-to-use__card">
+            <img src="images/common/how-to-use03.png" alt="仕上がったツヤ髪の後ろ姿" class="how-to-use__card-img">
+            <div class="how-to-use__card-body">
+              <p class="how-to-use__step">STEP 03</p>
+              <h3 class="how-to-use__card-title">仕上げ</h3>
+              <p class="how-to-use__card-desc">全体をスタイリングしたら完成。ツヤのある美しい髪に。</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="colors" id="colors">
+      <div class="section-container">
+        <div class="section-heading">
+          <p class="section-heading__label">SECTION</p>
+          <h2 class="section-heading__title">COLORS</h2>
+          <p class="section-heading__sub">カラーバリエーション</p>
+        </div>
+
+        <ul class="colors__grid">
+          <li class="colors__card">
+            <img src="images/common/color-black.png" alt="IONIC PRO ブラック" class="colors__img">
+            <p class="colors__name">BLACK</p>
+          </li>
+          <li class="colors__card">
+            <img src="images/common/color-white.png" alt="IONIC PRO ホワイト" class="colors__img">
+            <p class="colors__name">WHITE</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="spec" id="spec">
+      <div class="section-container">
+        <div class="section-heading">
+          <p class="section-heading__label">SECTION</p>
+          <h2 class="section-heading__title">SPEC</h2>
+          <p class="section-heading__sub">他シリーズとの比較</p>
+        </div>
+
+        <p class="spec__scroll-note">横にスクロールして全項目を確認できます（スマホ表示）</p>
+
+        <div class="spec__table-wrap">
+          <table class="spec__table">
+            <thead>
+              <tr>
+                <th>機能</th>
+                <th class="spec__table-highlight">IONIC PRO<span>（本製品）</span></th>
+                <th>IONIC STANDARD</th>
+                <th>IONIC BASIC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>加熱時間</td>
+                <td>30秒</td>
+                <td>60秒</td>
+                <td>90秒</td>
+              </tr>
+              <tr>
+                <td>温度調節</td>
+                <td>5段階</td>
+                <td>3段階</td>
+                <td>2段階</td>
+              </tr>
+              <tr>
+                <td>イオン機能</td>
+                <td>◎</td>
+                <td>○</td>
+                <td>×</td>
+              </tr>
+              <tr>
+                <td>自動電源オフ</td>
+                <td>◎</td>
+                <td>○</td>
+                <td>×</td>
+              </tr>
+              <tr>
+                <td>価格（税込）</td>
+                <td>¥15,800</td>
+                <td>¥9,800</td>
+                <td>¥5,800</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="user-voice" id="user-voice">
+      <div class="section-container">
+        <div class="section-heading">
+          <p class="section-heading__label">SECTION</p>
+          <h2 class="section-heading__title">USER VOICE</h2>
+          <p class="section-heading__sub">お客様の声</p>
+        </div>
+
+        <ul class="user-voice__grid">
+          <li class="user-voice__card">
+            <p class="user-voice__stars" aria-label="評価5段階中5">★★★★★</p>
+            <h3 class="user-voice__title">毎朝のヘアセットが楽しくなりました</h3>
+            <p class="user-voice__desc">以前は30分かかっていたスタイリングが10分以内に。仕上がりもサロン後みたいにツヤツヤです。</p>
+            <p class="user-voice__author">30代 / 会社員</p>
+          </li>
+          <li class="user-voice__card">
+            <p class="user-voice__stars" aria-label="評価5段階中5">★★★★★</p>
+            <h3 class="user-voice__title">熱ダメージが気になっていたけど安心</h3>
+            <p class="user-voice__desc">低温から試せるので傷んだ髪でも安心して使えます。マイナスイオンのおかげかまとまりがいい。</p>
+            <p class="user-voice__author">20代 / 学生</p>
+          </li>
+          <li class="user-voice__card">
+            <p class="user-voice__stars" aria-label="評価5段階中5">★★★★★</p>
+            <h3 class="user-voice__title">デザインがコスメみたいでかわいい</h3>
+            <p class="user-voice__desc">見た目がおしゃれで洗面台に置いても絵になります。機能面も申し分なく、大満足の一台です。</p>
+            <p class="user-voice__author">30代 / 主婦</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="final-cta__bg">
+        <picture>
+          <source media="(min-width: 768px)" srcset="images/pc/使用イメージpc.png">
+          <img src="images/sp/使用イメージsp.png" alt="" class="final-cta__bg-img">
+        </picture>
+      </div>
+      <div class="section-container final-cta__inner">
+        <p class="final-cta__eyebrow">LUMiA IONIC PRO</p>
+        <p class="final-cta__heading">
+          家で叶える、<br>
+          サロン帰りのツヤ
+        </p>
+        <p class="final-cta__price">
+          <span class="final-cta__price-amount">¥28,600</span>
+          <span class="final-cta__price-tax">（税込）</span>
+        </p>
+        <a href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer" class="cta-button final-cta__cta">購入する</a>
+      </div>
+    </section>
+
+    <section class="other-series" id="other-series">
+      <div class="section-container">
+        <div class="section-heading">
+          <p class="section-heading__label">SECTION</p>
+          <h2 class="section-heading__title">OTHER SERIES</h2>
+          <p class="section-heading__sub">他のヘアケア商品</p>
+        </div>
+
+        <ul class="other-series__grid">
+          <li class="other-series__card">
+            <img src="images/common/other-series01.png" alt="カールアイロン" class="other-series__img">
+            <p class="other-series__name">■ カールアイロン</p>
+          </li>
+          <li class="other-series__card">
+            <img src="images/common/other-series02.png" alt="ロールブラシアイロン" class="other-series__img">
+            <p class="other-series__name">■ ロールブラシアイロン</p>
+          </li>
+          <li class="other-series__card">
+            <img src="images/common/other-series03.png" alt="コームアイロン" class="other-series__img">
+            <p class="other-series__name">■ コームアイロン</p>
+          </li>
+          <li class="other-series__card">
+            <img src="images/common/other-series04.png" alt="ドライヤー" class="other-series__img">
+            <p class="other-series__name">■ ドライヤー</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-container">
+      <div class="site-footer__top">
+        <div class="site-footer__brand">
+          <img src="images/common/logo-LUMiA.png" alt="LUMiA" class="site-footer__logo">
+          <ul class="site-footer__social">
+            <li><a href="#"><img src="images/common/icon-Instagram.svg" alt="Instagram"></a></li>
+            <li><a href="#"><img src="images/common/Icon-twitter.svg" alt="X"></a></li>
+            <li><a href="#"><img src="images/common/Icon-youtube.svg" alt="YouTube"></a></li>
+          </ul>
+        </div>
+
+        <nav class="site-footer__nav" aria-label="フッターナビゲーション">
+          <ul>
+            <li><a href="#features">特長</a></li>
+            <li><a href="#comparison">使用前後</a></li>
+            <li><a href="#how-to-use">使い方</a></li>
+            <li><a href="#colors">カラー</a></li>
+            <li><a href="#spec">比較</a></li>
+            <li><a href="#user-voice">お客様の声</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="site-footer__bottom">
+        <p class="site-footer__copyright">© 2025 LUMiA Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="fixed-cta-bar">
+    <a href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer" class="cta-button fixed-cta" id="fixed-cta">購入する</a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

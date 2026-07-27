@@ -1,0 +1,85 @@
+:root {
+  /* Color */
+  --color-text-01: #3a3330;
+  --color-text-02: #7c7c7c;
+  --color-bg-white: #ffffff;
+  --color-bg-01: #fff7f0;
+  --color-accent-01: #e67896;
+  --color-accent-02: #bd7c6b;
+  --color-gray-01: #e0e0e0;
+  --color-gray-02: #f5f5f5;
+
+  --color-cta-gradient-start: #f590ad;
+  --color-cta-gradient-end: #dc6486;
+  --color-cta-hover: #dd6788;
+
+  --color-header-bg-sp: rgba(255, 255, 255, 0.8);
+  --color-header-border: rgba(124, 124, 124, 0.15);
+  --color-menu-overlay-bg: rgba(244, 237, 230, 0.94);
+  --color-menu-border: #acacac;
+  --color-menu-text: #111111;
+
+  /* Font family */
+  --font-jp: "Noto Sans JP", sans-serif;
+  --font-jp-serif: "Noto Serif JP", serif;
+  /* Figma指定はFuturaだが無料Webフォントとして配布されていないため代替 */
+  --font-logo: "Jost", sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Header（768px〜1440pxはvwで流体化し、1440pxのFigma値でclampする） */
+  --fs-nav-link: 16px;
+  --fs-nav-link-fluid: clamp(13px, 1.111vw, 16px);
+  --gap-header-nav: clamp(20px, 2.988vw, 43.03px);
+  --w-header-logo: clamp(90px, 11.74vw, 169px);
+  --h-header-logo: clamp(44px, 5.694vw, 82px);
+  --w-header-cta: clamp(160px, 17.29vw, 248.95px);
+  --h-header-cta: clamp(46px, 4.302vw, 61.95px);
+  --fs-header-cta: 20.42px;
+  --fs-header-cta-fluid: clamp(15px, 1.418vw, 20.42px);
+  --fs-menu-link: 16px;
+  --fs-menu-cta: 23.94px;
+
+  /* Font size: FV */
+  --fs-logo-word-sp: 24px;
+  --fs-logo-word-pc: 20px;
+  --fs-headline-sp: 22px;
+  --fs-headline-pc: 33px;
+  --fs-fv-cta: 23.94px;
+
+  /* Letter spacing */
+  --ls-logo-word-sp: 5.28px;
+  --ls-logo-word-pc: 6.87px;
+  --ls-cta: 3.35px;
+  --ls-header-cta: 2.86px;
+
+  /* Layout */
+  --content-max-width: 1440px;
+  --bp-tablet-min: 768px; /* @media には直書きが必要（参照用） */
+  --bp-pc-min: 1280px; /* 同上 */
+  --px-section-sp: 24px;
+  --px-section-pc: 86.05px;
+  --py-section-sp: 80px;
+  --py-section-pc: 120px;
+
+  /* Font size: Section heading（共通コンポーネント） */
+  --fs-section-label: 12px;
+  --fs-section-label-pc: 16.13px;
+  --ls-section-label: 2.4px;
+  --ls-section-label-pc: 3.23px;
+  --fs-section-heading: 32px;
+  --fs-section-heading-pc: 48px;
+  --fs-section-sub: 14px;
+  --fs-section-sub-pc: 21.51px;
+
+  /* Font size: セクション共通 */
+  --fs-body: 14px;
+  --fs-body-pc: 16px;
+  --fs-card-title: 17.5px;
+  --fs-card-title-pc: 22px;
+  --fs-step-label: 11.65px;
+  --fs-heading-3: 20px;
+  --fs-heading-3-pc: 20px;
+}
